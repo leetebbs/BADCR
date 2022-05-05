@@ -1,0 +1,459 @@
+
+#poly-logo{
+    padding-bottom: 20px;
+}
+
+
+body{
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#canvas{
+    display:none;
+}
+.btn {
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    margin-left: 50px;
+  }
+
+  .btns {
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    margin-left: 100px;
+    right:200px;
+  }
+
+  .btn-group .button{
+    background-color: #c7f72f;
+    color: black;
+    margin-left: 30px; 
+  }
+
+#line{
+    background-color: #c7f72f;
+    color: #c7f72f;
+    height:4px;
+}
+
+#image{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:auto;
+    padding: 15px;
+}
+
+#login_button{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 4px 4px #c7f72f;
+}
+
+button{
+    background-color: black;
+    color: #c7f72f;
+    box-shadow: 0px 0px 4px 4px #c7f72f;
+}
+
+#discord-btn{
+  font-family: 'Cantarell', sans-serif;
+  background-color: #c7f72f;
+  color: black;
+  margin-left: 30px;
+  box-shadow: 0px 0px 20px 4px #c7f72f;
+
+}
+
+#twitter-btn{
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    margin-left: 50px;
+    box-shadow: 0px 0px 20px 4px #c7f72f;
+  }
+#join-btn{
+  
+  font-family: 'Cantarell', sans-serif;
+  background-color: #c7f72f;
+  color: black;
+  box-shadow: 0px 0px 15px 4px #c7f72f;
+  
+}
+
+.btn-counter{
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    box-shadow: 0px 0px 10px 4px #c7f72f;
+}
+
+.btn-counter:hover {
+    background-color:black;
+    color:#c7f72f;
+  }
+
+#join-btn:hover {
+  background-color:black;
+  color:#c7f72f;
+}
+
+#discord-btn:hover {
+  background-color:black;
+  color:#c7f72f;
+}
+
+button:hover {
+    background-color:black;
+    color:#c7f72f;
+}
+
+#btn-login{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    box-shadow: 0px 0px 15px 4px #c7f72f;
+}
+#btn-login:hover {
+    background-color:black;
+    color:#c7f72f;
+  }
+
+  #btn-mint{
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 30%;
+    font-family: 'Cantarell', sans-serif;
+    background-color: #c7f72f;
+    color: black;
+    box-shadow: 0px 0px 15px 4px #c7f72f;
+   position: relative;
+   top:-40px;
+}
+#btn-mint:hover {
+    background-color:black;
+    color:#c7f72f;
+  }
+
+#color-me{
+    color: white;
+}
+
+#nav{
+    position: relative;
+    right: 200px;
+    color: white;
+}
+
+#window{
+    margin-top: 80px;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 8px #c7f72f;
+}
+
+#mint-window{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 8px #c7f72f;
+}
+.swapbox_select {
+    width: 50%;
+    float: left;
+}
+.swapbox{
+    overflow: auto;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid #c7f72f;
+}
+.token_select{
+    padding:5px 0;
+}
+.token_select:hover{
+    background-color: #464646;
+    cursor: pointer;
+    
+}
+.token_list_img, .token_image{
+    width: 40px;
+}
+.modal-body{
+    height: 600px;
+    overflow: scroll;
+}
+.token_row{
+    padding: 5px 10px;
+}
+.token_row:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+.logo{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+
+}
+
+.logotext{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:80%;
+    width: 80%;
+}
+
+.reborn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainLogo{
+    position: block;
+    height:auto;
+    width:30%;
+}
+
+.intro{
+  align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.second{
+    font-size: small;
+    color:white;
+}
+
+.roadmaptitles{
+    color:#c7f72f;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.third{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-align: center;
+}
+
+.forth{
+    color:white;
+    font-size: large;
+}
+
+.card{
+    background-color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.end{
+    color:white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+  }
+
+  h3{
+    font-weight: bold;
+  }
+
+.card-title{
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+}
+
+.card-text{
+    color: #fff;
+    font-size: 15px;
+}
+
+#mint-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;
+}
+
+#return{
+    text-align: center;
+    color:white;
+}
+.wrap{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  width: 200px;
+}
+
+input{
+  display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #c7f72f;
+    box-shadow: 0px 0px 15px 4px #c7f72f;
+}
+
+  
+.custom-toggler .navbar-toggler-icon {
+    background-color: #c7f72f;
+    color: black;
+    box-shadow: 0px 0px 15px 4px #c7f72f;
+   
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+background-color:black;
+color:#c7f72f;
+}
+.navbar {
+    display: none;
+background-color: black;
+}
+
+.socials-btns #discord-btn{
+    float: right;
+    margin-right: 15%;
+
+
+}
+
+.socials-btns #twitter-btn{
+    position: relative;
+    float: left;
+    top: 25px;
+    margin-left: 15%;
+
+
+}
+
+#polyimage{
+    width:50%;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+#txhash{
+    text-align: center;
+    color:#c7f72f;
+    font-size: xx-small;
+}
+
+@media  only screen and (min-width: 768px){
+    body{
+        background-color: black;
+    }
+
+.navbar {
+    display: block;
+background-color: black;
+}
+
+.socials-btns #discord-btn{
+    display: none;
+    float: right;
+    margin-right: 15%;
+
+
+}
+
+.socials-btns #twitter-btn{
+    display: none;
+    position: relative;
+    float: right;
+    top: 25px;
+    margin-left: 15%;
+
+
+}
+#window{
+    margin-top: 80px;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 8px #c7f72f;
+}
+
+.second{
+    color:white;
+}
+
+#mint-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 250px;
+}
+
+#polyimage{
+    width:20%;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+
+#canvas {
+    
+    display: block;
+    width: 100%;
+    height: 50%;
+   
+  }
+
+}
+
